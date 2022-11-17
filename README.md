@@ -13,7 +13,7 @@ Deploying applications using Ingress using minikube. Good for quick testing, POC
   $ kubectl get pods -n ingress-nginx <br/>
   ![image](https://user-images.githubusercontent.com/92582005/201918899-73275eb7-761c-45c1-8488-96fbb62778dd.png) <br/> 
   ![image](https://user-images.githubusercontent.com/92582005/201918986-f9bf31f3-7509-46ae-8bd2-7dd830b5a351.png) <br/>
-* Deploy the NGINX ingress controller in minikube (** Copy/Paste of below command from Github sometimes gives error. In that case clean up the enviornment as mentioned in last section and then run the command from the command.txt file uploaded in the repo**) <br/>
+* Deploy the NGINX ingress controller in minikube (**Copy/Paste of below command from Github sometimes gives error. In that case clean up the enviornment as mentioned in last section and then run the command from the command.txt file uploaded in the repo**) <br/>
  New command to create NGINX ingress controller without customizing the defaults<br/>
  $ helm install nginx-ingress ingress-nginx/ingress-nginx --create-namespace --namespace ingress-basic --set controller.replicaCount=2 --set controller.nodeSelector."kubernetes\.io/os"=linux --set defaultBackend.nodeSelector."kubernetes\.io/os"=linux <br/>
  Old command (deprecated but still may work) <br/>
