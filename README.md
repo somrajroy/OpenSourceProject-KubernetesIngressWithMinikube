@@ -50,5 +50,6 @@ Deploying applications using Ingress using minikube. Good for quick testing, POC
   $ kubectl delete all --all <br/><br/>
 ### References
 * [What Is an Ingress Controller?](https://www.nginx.com/resources/glossary/kubernetes-ingress-controller/)</br>
+* [Kubernetes Ingress Controller Overview](https://medium.com/swlh/kubernetes-ingress-controller-overview-81abbaca19ec)<br/>
  
   
