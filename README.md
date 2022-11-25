@@ -47,6 +47,8 @@ Deploying applications using Ingress using minikube. Good for quick testing, POC
   $ kubectl delete all --all -n ingress-nginx <br/>
   $ kubectl delete namespace ingress-basic <br/>
   $ kubectl delete namespace ingress-nginx <br/>
-  $ kubectl delete all --all <br/>
+  $ kubectl delete all --all <br/><br/>
+### References
+* [What Is an Ingress Controller?](https://www.nginx.com/resources/glossary/kubernetes-ingress-controller/)</br>
  
   
