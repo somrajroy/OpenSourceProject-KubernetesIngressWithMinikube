@@ -2,6 +2,8 @@
 Deploying applications using Ingress using minikube. Good for quick testing, POC's, Demo etc purposes <br/>
 * Below is example where an Ingress sends all its traffic to one Service. In this demo we will use ingress to send traffic to 3 services - cats, dogs and birds:<br/>
   ![image](https://user-images.githubusercontent.com/92582005/202117909-defb991d-8f12-49e5-ad9b-91f3f169399c.png) <br/>
+* An Ingress is a rule that governs how a service securely inside the Kubernetes cluster can safely access the outside world to allow user access. An ingress controller, a proxy, sits at the edge of the cluster’s network waiting for new rules. It processes them and maps each service to a specific domain name or URL path for public use. It is the Kubernetes project itself that develops and maintains the Ingress, but other open source projects develop ingress controllers, implement them, and create unique features.<br/>
+* Just like other applications, ingress controllers are pods, visible parts of the cluster. Ingress controllers are built using underlying reverse proxies that lend them load balancing and Layer 7 routing capabilities. Each proxy is its own product with a unique set of features.<br/>
 * Ingress controllers work at layer 7 and can use more intelligent rules to distribute application traffic. Ingress controllers typically route HTTP/HTTPS traffic to different applications based on the inbound URL.<br/>
     ![image](https://user-images.githubusercontent.com/92582005/203915170-8a64780b-2c6f-4a50-b91c-c6e04fcd1e05.png)<br/>
 ### Steps to be followed : <br/>
