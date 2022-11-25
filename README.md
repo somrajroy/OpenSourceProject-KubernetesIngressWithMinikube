@@ -2,6 +2,8 @@
 Deploying applications using Ingress using minikube. Good for quick testing, POC's, Demo etc purposes <br/>
 * Below is example where an Ingress sends all its traffic to one Service. In this demo we will use ingress to send traffic to 3 services - cats, dogs and birds:<br/>
   ![image](https://user-images.githubusercontent.com/92582005/202117909-defb991d-8f12-49e5-ad9b-91f3f169399c.png) <br/>
+* Ingress controllers work at layer 7 and can use more intelligent rules to distribute application traffic. Ingress controllers typically route HTTP/HTTPS traffic to different applications based on the inbound URL.<br/>
+    ![image](https://user-images.githubusercontent.com/92582005/203915170-8a64780b-2c6f-4a50-b91c-c6e04fcd1e05.png)<br/>
 ### Steps to be followed : <br/>
 * Clone the repository and navigate to lab-05 folder in Powershell/CLI <br/>
 * Enable the NGINX Ingress controller in minikube <br/>
