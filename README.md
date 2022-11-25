@@ -53,5 +53,6 @@ Deploying applications using Ingress using minikube. Good for quick testing, POC
 ### References
 * [What Is an Ingress Controller?](https://www.nginx.com/resources/glossary/kubernetes-ingress-controller/)</br>
 * [Kubernetes Ingress Controller Overview](https://medium.com/swlh/kubernetes-ingress-controller-overview-81abbaca19ec)<br/>
+* [How to Set Up Ingress Controller in AWS EKS](https://towardsdatascience.com/how-to-set-up-ingress-controller-in-aws-eks-d745d9107307)<br/>
  
   
