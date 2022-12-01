@@ -1,4 +1,4 @@
-# Deploying applications using Ingress - Minikube <br/>
+# Deploying applications using Ingress - Minikube  <br/>
 Deploying applications using Ingress using minikube. Good for quick testing, POC's, Demo etc purposes <br/>
 * Below is example where an Ingress sends all its traffic to one Service. In this demo we will use ingress to send traffic to 3 services - cats, dogs and birds:<br/>
   ![image](https://user-images.githubusercontent.com/92582005/202117909-defb991d-8f12-49e5-ad9b-91f3f169399c.png) <br/>
@@ -54,5 +54,7 @@ Deploying applications using Ingress using minikube. Good for quick testing, POC
 * [What Is an Ingress Controller?](https://www.nginx.com/resources/glossary/kubernetes-ingress-controller/)</br>
 * [Kubernetes Ingress Controller Overview](https://medium.com/swlh/kubernetes-ingress-controller-overview-81abbaca19ec)<br/>
 * [How to Set Up Ingress Controller in AWS EKS](https://towardsdatascience.com/how-to-set-up-ingress-controller-in-aws-eks-d745d9107307)<br/>
+* [What is Application Gateway Ingress Controller?](https://learn.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview)<br/>
+* [Tutorial: Basic - Application Gateway Ingress Controller](https://azure.github.io/application-gateway-kubernetes-ingress/tutorials/tutorial.general/)<br/>
  
   
